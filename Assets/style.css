@@ -1,0 +1,26 @@
+
+/*
+/////////////////////////////// Device Accessibility //////////////////////////////////
+*/
+
+/* Changes according to browser width xs */ 
+@media screen and (max-width: 576px) {
+    .name {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Changes according to browser width sm */ 
+@media screen and (max-width: 768px) {
+
+}
+
+/* Changes according to browser width mdpx */ 
+@media screen and (max-width: 992px) {
+
+}
