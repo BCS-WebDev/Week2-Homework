@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="position-relative" style="min-height: 100%" lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- bootstrap css -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- media queries for viewport width -->
         <link rel="stylesheet" href="style.css">
         
         <!-- pull google fonts -->
@@ -13,16 +15,30 @@
         <title>About: Kevin Choi</title>
     </head>
 
-    <body class="" style="background: lightgrey">
+    <!-- no margin or padding by deafult
+        - was no suitable .bg-color on bootsrap -->
+    <body style="margin-bottom: 160px; background: lightgrey">
+        <!-- header has border on bottom in border-secondary style
+            - background is white
+            - height is matches to default bootstrap navbar class height of 67px -->
         <header class="border-bottom border-secondary bg-white" style="height: 67px;">
-            <!-- Name -->
-            <div class="name bg-info text-center text-light ml-0 ml-sm-3 px-sm-5 ml-md-3 px-md-5 h-100 d-inline-block align-middle">
-                <h3 class="position-relative" style="top: 12px">Kevin Choi</h3>
+            <!-- custon name class included to change width to 100% at xs screen width
+                - .bg-info is turquoise/teal, text centered & colored .text-light(ivory) 
+                - display: inline-block, no margin-left on xs, margin-left on sm,md size 3, padding sides on sm,md size 5
+                - height: 100% -->
+            <div class="name bg-info text-center text-light ml-0 ml-sm-3 px-sm-5 ml-md-3 px-md-5 h-100 d-inline-block">
+                <!-- need flex-box to align vertically with bootstrap
+                    - opted to use position-relative class with style top at 13px -->
+                <h3 class="position-relative" style="top: 13px">Kevin Choi</h3>
             </div>
 
+            <!-- navbar class, white background, same bottom border as header, floats right -->
             <nav class="navbar bg-white border-bottom border-secondary float-right">
-                <ul class="list-group list-group-horizontal list-group-flush" style="color: grey">
-                    <li class="list-group-item"> 
+                <!-- horizontal list-group with flushed borders, text is black with 50 alpha -->
+                <ul class="list-group list-group-horizontal list-group-flush text-black-50" >
+                    <!-- list-group-items (no action for now) -->
+                    <li class="list-group-item "> 
+                        <!-- links to other pages, text color inherited -->
                         <a href="index.html" style="color: inherit">About</a>
                     </li>
 
@@ -38,31 +54,54 @@
             </nav>
         
         </header>
-        <div class="container-fluid m-0 p-0 m-sm-0 p-sm-0 m-md-0 p-md-0" style="width: 100%">
-            <!--<header style="background: white">
-                <!-- Name 
-                <section class="col-12 col-sm-4 col-md-3" style="display: inline-block; background: teal; color: white; text-align: center;">
-                    <h3>Kevin Choi</h3>
+
+        <!-- container-fluid has width 100% -->
+        <div class="container-fluid mt-0 p-0 m-sm-0 p-sm-0 m-md-0 p-md-0" style="max-width: 768px">
+            <main class="bg-white mt-3 mx-3 mt-sm-3 mx-sm-3 mt-md-3 mx-md-3" >
+                <section class="row" style="height: 59px">
+                    <div class="text-center text-info ml-2 ml-sm-4 ml-md-4 h-100" style="min-width: 150px">
+                        <!-- need flex-box to align vertically with bootstrap
+                            - opted to use position-relative class with style top at 13px -->
+                        <h3 class="position-relative" style="top: 20px">About Me</h3>
+                    </div>
                 </section>
 
-                <nav class="col-12 col-sm-4 col-md-4" style="float: right; color: lightgrey">
-                    <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item"> 
-                            <a href="index.html">About</a>
-                        </li>
+                <hr class="mx-3 mx-sm-3 mx-md-3">
 
-                        <li class="list-group-item">
-                            <a href="Portfolio.html">Portfolio</a>
-                        </li>
+                <section class="row mx-1  mx-sm-1 mx-md-1">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <figure class="mr-sm-4 mt-sm-2 pt-sm-1 mr-md-4 mt-md-2 pt-md-1 aboutMeFigure float-left">
+                            <img class="img-fluid aboutMeFigure" src="https://via.placeholder.com/250">
+                        </figure>
 
-                        <li class="list-group-item">
-                            <a href="contact.html">Contact</a>
-                        </li>
+                        <div class="text-wrap text-black-50">
+                            <p style="line-height: 2.0">
+                                Blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                                blah blah blah blah blah blah blah blah blah blah blah blah
+                            </p>
+                        </div>
+                    </div>
+                </section>
 
-                    </ul>
-                </nav>
-            
-            </header>-->
+            </main>
+
         </div>
+
+        <!-- footer -->
+        <footer class="w-100 position-absolute bg-secondary text-white-50 text-center" style="height: 72px; bottom: 0;">
+            <div class="row m-0 m-sm-0 m-md-0 w-100 bg-info" style="height: 5px"></div>
+            <h6 class="position-relative" style="top: 21px">&copy; Copyright</h6>
+        </footer>
+
     </body>
 </html>

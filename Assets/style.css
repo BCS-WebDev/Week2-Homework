@@ -4,7 +4,7 @@
 */
 
 /* Changes according to browser width xs */ 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
     .name {
         width: 100%;
     }
@@ -12,6 +12,16 @@
     .navbar {
         width: 100%;
         justify-content: center;
+    }
+
+    .container-fluid {
+        position: relative;
+        top: 69px;
+    }
+    
+    .aboutMeFigure {
+        box-sizing: content-box;
+        width: 100%;
     }
 }
 
