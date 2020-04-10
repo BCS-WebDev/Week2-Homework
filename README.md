@@ -38,6 +38,7 @@ xs viewport was used extremely minimally.
             - Main canvas contains content section which uses row & columns for respective layouts
                 - Needed for text-wrap and image placements
                 - Variable width (fluid-xs) for figures & repective images
+                - Portfolio content uses columns
 
     - Sticky Footer
         - 'Sticky' is different from 'Fixed'
@@ -46,12 +47,12 @@ xs viewport was used extremely minimally.
             - 'Sticky' will show at the bottom of the page only if there is no more content
               to be shown. If there is more content to be shown, the content will push the
               footer down to the end of the bottom of the page, not appear on top of the content.
-        - To achieve this:
+        - To achieve:
             - Html element needs
                 - Relative position
                 - Minimum height: 100%
-            - Body needs
+            - Body element needs
                 - Bottom margin wider than footer height
-            - Footer needs
+            - Footer element needs
                 - Absolute position
                 - Bottom: 0
