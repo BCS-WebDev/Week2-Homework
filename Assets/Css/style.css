@@ -1,0 +1,39 @@
+
+/*
+/////////////////////////////// Device Accessibility //////////////////////////////////
+*/
+
+/* Text Animation */
+.spaz:hover {
+    animation: spazAnim;
+    animation-duration: .25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes spazAnim {
+    0% { left: 0px; top: 13px; } 
+    10% { left: -10px; top: 13px; } 
+    20% { left: 0px; top: 3px; }  
+    30% { left: 10px; top: 13px; }  
+    40% { left: 0px; top: 23px; }  
+    50% { left: -10px; top: 13px; }   
+    60% { left: 0px; top: 3px; }  
+    70% { left: 10px; top: 13px; }  
+    80% { left: 0px; top: 23px; } 
+    90% { left: -10px; top: 13px; } 
+    100% { left: 0px; top: 13px; }
+}
+
+/* Changes according to browser width xs */ 
+@media screen and (max-width: 575px) {
+    .fluid-xs {
+        width: 100%;
+    }
+
+    .container-fluid {
+        position: relative;
+        top: 69px;
+    }
+}

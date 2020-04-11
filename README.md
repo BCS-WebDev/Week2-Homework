@@ -28,6 +28,7 @@ xs viewport was used extremely minimally.
     - Header
         - Placed outside & above main container
         - Variable width (fluid-xs) box used for Name
+            - Hover Name for spaz animation
         - Variable width (fluid-xs) navbar class used to contain list-group for links
     
     - Main container
@@ -39,6 +40,7 @@ xs viewport was used extremely minimally.
                 - Needed for text-wrap and image placements
                 - Variable width (fluid-xs) for figures & repective images
                 - Portfolio content uses columns
+                - Contact uses forms in rows
 
     - Sticky Footer
         - 'Sticky' is different from 'Fixed'
