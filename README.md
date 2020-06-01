@@ -1,7 +1,7 @@
-# Week2-Homework
+# Responsive Portfolio
 BootCampSpot Web Development - Week 2 Homework
 
-# Notes on Bootstrap
+## Notes on Bootstrap
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bootstrap is an open source toolkit for developing
 with HTML, CSS, and JavaScript. We will be utilizing its front-end component library
 to build a responsive, mobile-friendly website for a portfolio.
@@ -13,7 +13,7 @@ facilitates the organization of different HTML elements into rows and columns, n
 that allow different styles and colors for its lists, and spacing syntax to truncate code
 used for margins, borders, and paddings, amongst others.
 
-# Motive & Action
+## Motive & Action
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a project geared towards familiarizing
 ourselves with Bootstrap, we will be recreating a layout using only Bootstrap classes
 while minimizing the use of custom classes and media queries for different viewports.
