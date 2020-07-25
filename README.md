@@ -1,6 +1,8 @@
 # Responsive Portfolio
 BootCampSpot Web Development - Week 2 Homework
 
+![Preview](https://github.com/BCS-WebDev/Week2-Homework/blob/master/Assets/Portfolio.gif)
+
 ## Notes on Bootstrap
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bootstrap is an open source toolkit for developing
 with HTML, CSS, and JavaScript. We will be utilizing its front-end component library
